@@ -3,11 +3,25 @@ package adapter;
 public class DuckDriveTest {
     
 	public static void main(String[] args) {
-        MallardDuck Duck = new MallardDuck();
+        MallardDuck duck = new MallardDuck();
+
         WildTurkey turkey = new WildTurkey();
-        Duck turkeyAdapter =  new TurkeyAdapter(turkey); // generate a turkey-like duck
-        turkeyAdapter.fly();
-        turkeyAdapter.quack();
+        Duck turkeyAdapter =  new TurkeyAdapter(turkey);
+
+        System.out.println("The Turkey says...");
+        turkey.gobble();
+        turkey.fly();
+
+        System.out.println("\nThe Duck says...");
+        testDuck(duck);
+
+        System.out.println("\nThe TurkeyAdapter says...");
+        testDuck(turkeyAdapter);
     }
-	
+
+        private static void testDuck(Duck duck) {
+	        duck.quack();
+	        duck.fly();
+        }
+
 }
