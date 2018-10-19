@@ -1,4 +1,4 @@
-package templatemethod;
+package templatemethod.tea;
 
 public class TeaTest {
     public static void main(String[] args){

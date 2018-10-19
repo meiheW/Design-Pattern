@@ -1,4 +1,4 @@
-package templatemethod;
+package templatemethod.tea;
 
 public abstract class CaffeineBeverage {
 
