@@ -6,18 +6,18 @@ public class ConcreteBuilder implements Builder {
 	
 	@Override
 	public void BuildCPU() {
-		computer.add("×é×°CPU");
+		computer.add("ï¿½ï¿½×°CPU");
 	}
 
 	@Override
 	public void BuildMainboard() {
-		computer.add("×é×°Ö÷°å");
+		computer.add("ï¿½ï¿½×°ï¿½ï¿½ï¿½ï¿½");
 
 	}
 
 	@Override
 	public void BuildHD() {
-		computer.add("×é×°Ó²ÅÌ");
+		computer.add("ï¿½ï¿½×°Ó²ï¿½ï¿½");
 
 	}
 

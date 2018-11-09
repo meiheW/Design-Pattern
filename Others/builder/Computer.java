@@ -14,8 +14,8 @@ public class Computer {
 	public void show(){
 		
 		for(int i=0; i<parts.size(); i++){
-			System.out.println("×é¼þ"+parts.get(i)+"×°ºÃÁË");
+			System.out.println("ï¿½ï¿½ï¿½"+parts.get(i)+"×°ï¿½ï¿½ï¿½ï¿½");
 		}
-		System.out.println("µçÄÔ×é×°Íê³É");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×°ï¿½ï¿½ï¿½");
 	}
 }
